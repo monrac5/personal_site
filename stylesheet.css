@@ -2,16 +2,54 @@ body {
    margin: 80px;
 }
 
-.letterg {
-   background-color: darkred;
-   color: white;
-   padding: 14px 25px;
-   text-align: center;
-   border-radius: 50px;
+div {
+   margin-left: 30px;
 }
 
-.buttoncontainer {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+a:link {
+   color: royalblue;
 }
+
+a:visited {
+  color: royalblue;
+}
+
+a:hover {
+  color: darkred;
+}
+
+.contact_div {
+   color: royalblue;
+   /* -webkit-text-stroke: 0.2px darkred; */
+   font-family: Courier New;
+   margin-bottom: 40px;
+}
+
+.project_div {
+   color: darkred;
+   font-family: Courier New;
+}
+
+@media (width >= 620px) {
+   .header {
+      width: 500px;
+      height: auto;
+   } 
+   .projects {
+      width: 250px;
+      height: auto;
+   } 
+}
+
+@media (width < 620px) {
+   .header {
+      width: 100%;
+      height: auto;
+   }
+   .projects {
+      width: 50%;
+      height: auto;
+   }  
+}
+
+
