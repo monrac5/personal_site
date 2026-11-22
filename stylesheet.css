@@ -1,3 +1,8 @@
+@font-face {
+   font-family: "JetBrains Mono";
+   src: url("fonts/JetBrainsMono-Regular.woff2");
+}
+
 body {
    margin: 80px;
 }
@@ -21,13 +26,13 @@ a:hover {
 .contact_div {
    color: royalblue;
    /* -webkit-text-stroke: 0.2px darkred; */
-   font-family: Courier New;
+   font-family: JetBrains Mono;
    margin-bottom: 40px;
 }
 
 .project_div {
    color: darkred;
-   font-family: Courier New;
+   font-family: JetBrains Mono;
 }
 
 @media (width >= 620px) {
